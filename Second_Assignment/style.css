@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.profile-card {
+    background-color: rgba(236, 240, 241, 0.7);
+    width: 50%;
+    position: relative;
+}
+body{
+    color: #3498db;
+    font-size: 2rem;
+}
+header {
+    width: 30vw;
+    min-height: 20vh;
+}
+nav {
+    position: sticky;
+}
+nav a{
+    padding: 1.5em;
+}
+.tooltip{ 
+visibility: hidden;
+display: none;
+}
+.badge {
+display: inline-block;
+position: absolute;
+
+}
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 16px;
+}

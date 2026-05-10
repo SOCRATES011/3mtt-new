@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <section class="nav-left">
+          <img src="./assets/logo.png" alt="logo" id="logo" />
+          <div class="search-icon-parent">
+            <img
+              src="./assets/search-01.svg"
+              alt="search bar"
+              id="search-icon"
+            />
+          </div>
+          <input
+            type="text"
+            class="search-bar"
+            placeholder="Search by name of keyword"
+          />
+          <div class="drop-down">
+            <p>Learning & Development</p>
+            <div id="learning-options">
+              <ul>
+                <li>Software Dev</li>
+                <li>Machine Learning</li>
+                <li>Data Science</li>
+                <li>Cybersecurity</li>
+                <li>DevOps</li>
+              </ul>
+            </div>
+          </div>
+          
+          <img src="./assets/chevron-down.svg" alt="" class="arrow-icon"/>
+        </section>
+        <section class="nav-right">
+          <img src="./assets/Frame.svg" alt="" />
+          <p>English</p>
+          <img src="./assets/chevron-down.svg" alt="" />
+          <img src="./assets/bubble-chat.svg" alt="" />
+          <img src="./assets/notification-02.svg" alt="" />
+          <p class="round-text">M</p>
+        </section>
+        <i class="fa-solid fa-bars" id="menu"></i>
+      </nav>
+    </header>
+    <main>
+      <section class="pop-parent">
+        <section class="pop-up">
+        <p>buy petrol at $20/litre!!!!</p>
+        <button id="close-pop-up">Close</button>
+      </section>
+      </section>
+      
+      <section class="gallery"> 
+        <h3 id="our-image">Our Images</h3>
+        <img id="gallery-image" src="" alt="a scientific fact">
+        <div class="circle-wrap">
+          <div class="circle" onclick="changeImage (0)"></div>
+          <div class="circle" onclick="changeImage (1)"></div>
+          <div class="circle" onclick="changeImage (2)"></div>
+          <div class="circle"></div>
+        </div>
+      </section>
+      <section class="hero">
+        <p class="hello">
+          Hello, <span id="margarette">Margarette</span>. Welcome to ANME
+          Academy!
+        </p>
+        <div class="hero-box">
+          <div class="hero-box-left">
+            <p class="a-message" id="a-message">A Message from our <span id="gm">GM</span></p>
+            <p class="change-text">
+              “Change happens when you extend your reach. Your comfort zone is
+              your enemy. If you play it safe, you will never become all that
+              you are destined to be. Change is uncomfortable, but it’s
+              helpful!”
+            </p>
+            <div class="box-down">
+              <div class="box-down-left">
+                <img src="./assets/Ellipse 3.png" alt="" />
+              </div>
+              <div class="box-down-right">
+                <h5>Lammert Fopma</h5>
+                <p>General Manager, ANME Academy</p>
+              </div>
+            </div>
+          </div>
+          <div class="hero-box-right">
+            <img id="video" src="./assets/video.png" alt="our video" />
+          </div>
+        </div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente exercitationem culpa sint accusantium suscipit enim, commodi veritatis dolorum voluptate blanditiis! Tempore consequuntur dolore accusamus aspernatur qui voluptatum non impedit. Necessitatibus, quidem alias magnam reiciendis, natus molestias, commodi distinctio eveniet corporis porro facere laudantium ab dolor sed placeat nemo. Dolores hic molestiae nesciunt quae, culpa laborum natus adipisci, voluptatibus fuga quisquam eaque! Voluptates ducimus consequatur placeat molestiae magni incidunt minus, unde, itaque voluptas asperiores totam optio. Earum, minus provident illo similique dolorem consequuntur eligendi alias magni suscipit voluptatum nulla voluptatem tempore. Tempora sit similique autem aspernatur natus maiores debitis, et delectus esse! Dolores exercitationem tenetur cum doloremque optio nobis saepe, et sequi, sed quos fuga suscipit possimus excepturi magnam voluptatibus alias autem laudantium distinctio tempore, facere officiis recusandae qui laborum provident. Minima ad natus fuga facere, exercitationem, maiores tempore quisquam eos pariatur, obcaecati quis illo repellat placeat eum! Earum veniam nisi aliquam, enim, doloribus voluptate repudiandae aperiam itaque nam quidem labore? Quos harum adipisci odit aliquid dolor suscipit vitae mollitia deleniti? Delectus laboriosam veniam obcaecati esse, ratione quo rem soluta. Ducimus id optio temporibus et quas vero? Commodi incidunt ab qui nemo laborum suscipit cupiditate? Ipsa porro amet corporis suscipit alias.</p>
+        <button id="scroll">Go to Top</button>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="./script.js"></script>
+  </body>
+</html>

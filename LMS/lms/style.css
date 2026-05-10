@@ -1,0 +1,234 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans";
+}
+li{
+    list-style: none;
+}
+body{
+    overflow-x: hidden;
+}
+nav, .hero-box,
+.nav-left,
+.nav-right,
+.box-down{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    background-color: #fff;
+    padding: 0 50px;
+}
+.nav-left, .nav-right{
+    align-items: center;
+    width: 60%;
+}
+.nav-right{
+    width: 20vw;
+}
+.round-text{
+    background-color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    padding: 3%;
+    border-radius: 50%;
+}
+.search-bar{
+    width: 30vw;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid #DCDCE5;
+    padding-left: 50px;
+}
+.search-icon-parent{
+    position: relative;
+}
+#search-icon{
+    position: absolute;
+    top:-10px;
+    left: 35px;
+}
+#logo{
+    width: 90px;
+    height: 90px;
+}
+
+
+/* hero */
+.hero{
+    height: 573px;
+    width: 100vw;
+    padding: 5%;
+    font-size: 2rem;
+    font-weight: 400;
+    background-color: #F3F4F8;
+}
+#margarette{
+    font-weight: bold;
+}
+.hello{
+    text-align: center;
+}
+.hero-box{
+    background-color: #070E27;
+    color: #fff;
+    width: 69vw;
+    padding: 5%;
+}
+.hero-box-left{
+    width: 70%;
+}
+.hero-box-right{
+    width:30%;
+}
+.hero-box-right img{
+    width: 100%;
+    height: 100%;
+}
+.box-down{
+    margin-top: 25px;
+    width: 55%;
+}
+.hero-box-left{
+    font-size: 1rem;
+}
+.change-text{
+    font-weight: bold;
+    padding: 5% 0;
+    padding-right: 10%;
+}
+.mouse{
+    font-size: 4rem;
+    color: #070E27;
+    border: 2px solid black ;
+}
+.gallery {
+    background-color: #070E27;
+    display: grid;
+    place-items: center;
+    padding-bottom: 50px;
+}
+#gallery-image{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+
+}
+.gallery h3{
+    color: #fff;
+    padding: 40px 0;
+    font-size: 3rem;
+}
+.circle-wrap{
+    display: flex;
+    margin-top: 20px;
+    width: 10%;
+    justify-content: space-evenly;
+}
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #dee1e9;
+    cursor: pointer;
+}
+#scroll{
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    padding: 10px;
+    background-color: #070E27;
+    border: none;
+    border-radius: 45%;
+    color: #DCDCE5;
+    cursor: pointer;
+    display: none;
+}
+#scroll:hover{
+    background-color: rgb(0, 255, 106);
+    color: blueviolet;
+
+}
+.pop-parent{
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+
+.pop-up{
+    top: 25vh;
+    width: 20vw;
+    height: 40vh;
+    background-color: brown;
+    text-align: center;
+   display: grid;
+   place-items: center;
+   position: absolute;
+}
+.drop-down{
+    position: relative;
+}
+#learning-options{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: whitesmoke;
+    padding: 3%;
+    display: none;
+}
+.arrow-icon-up{
+    transform:rotate(180deg)
+}
+#menu{
+    display: none;
+    margin-top: 20px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+    .search-icon-parent,
+    .search-bar,
+    .drop-down,
+    .arrow-icon,
+    .nav-right{ display: none;}
+    .nav-right2{
+        display: grid;
+        position: absolute;
+        width: 80vw;
+        height: 40vh;
+        z-index: 2;
+        margin-left: 100px;
+        background-color: grey;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    #menu{
+        display: block;
+        z-index: 3;
+    }
+
+}
+/* .btn-wrap{
+    width:15%;
+    display: flex;
+    justify-content: space-around;
+}
+.btn-wrap button{
+    padding: 3%;
+    border: none;
+    background-color: aquamarine;
+    color: green;
+    border-radius: 10px;
+    margin: 10px;
+}
+.btn-wrap button:hover{
+cursor: pointer;
+background-color: #070E27;
+} */
